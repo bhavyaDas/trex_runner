@@ -118,7 +118,7 @@ function draw() {
     
     console.log(trex.y)
     //jump when the space key is pressed
-    if((touches.length>0||keyDown("space"))&&trex.y>= height-20) {
+    if((touches.length>0||keyDown("space"))&&trex.y>= height-320) {
         trex.velocityY = -12;
         jumpSound.play();
         touches=[]
